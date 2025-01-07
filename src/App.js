@@ -33,6 +33,12 @@ const router=createBrowserRouter([
     </>,
     children:[
       {
+        index:true,
+        element:<Courses/>
+      },
+
+      {
+      
         path:"courses",
         element:<Courses/>
       },{
